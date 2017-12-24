@@ -27,3 +27,7 @@ cnpm install express -S
 "start" : " webpack-dev-server --port 5000 --open --progress --colors"
 "build" : " webpack -p"
 ```
+# 插件
+```angular2html
+cnpm install swipe-js-iso react-swipe --S
+```
