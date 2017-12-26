@@ -18,16 +18,22 @@ cnpm install es6-promise whatwg-fetch -D
 
 ```
 # node
-```$xslt
+```
 cnpm install express -S
 ```
 
 # scripts
-```$xslt
+```
 "start" : " webpack-dev-server --port 5000 --open --progress --colors"
 "build" : " webpack -p"
 ```
 # 插件
-```angular2html
+```
 cnpm install swipe-js-iso react-swipe --S
 ```
+# store 
+
+- store onlyone
+- actions 发布的动作
+- reducers 
+- action-types

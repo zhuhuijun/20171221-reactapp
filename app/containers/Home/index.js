@@ -2,14 +2,27 @@ import React, {Component} from 'react';
 import HomeHeader from "../../components/HomeHeader/index";
 import Slider from "../../components/Slider/index";
 import Ad from "./subpage/Ad";
-
-export default class Home extends Component {
+import {connect} from 'react-redux';
+import List from "./subpage/List";
+import './index.less';
+class Home extends Component {
     render() {
         return (
-            <div><HomeHeader cityName="北京"/>
+            <div><HomeHeader cityName={this.props.userInfo.cityName}/>
                 <Slider/>
                 <Ad/>
+                <div className="myh3">特惠礼物</div>
+                <List cityName={this.props.userInfo.cityName}/>
             </div>
         )
     }
 }
+
+//取出redux中的城市
+export default connect(
+    state => {
+        return {
+            userInfo: state.userInfo
+        }
+    }
+)(Home);

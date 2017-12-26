@@ -1,0 +1,23 @@
+module.exports={
+    "hasMore":true,
+    "data":[
+        {
+            "img":"https://img13.360buyimg.com/n8/jfs/t7690/148/3383141948/316439/4f7f719b/59e4d466N8d33df86.jpg",
+            "title":"汉堡大大",
+            "subTitle":"叫我汉堡大大，还你精彩口味",
+            "price":"120",
+            "distance":"120m",
+            "number":"345",
+            "id":"7689285298592"
+        },
+        {
+            "img":"https://img13.360buyimg.com/n8/jfs/t7690/148/3383141948/316439/4f7f719b/59e4d466N8d33df86.jpg",
+            "title":"汉堡大大",
+            "subTitle":"叫我汉堡大大，还你精彩口味",
+            "price":"120",
+            "distance":"120m",
+            "number":"345",
+            "id":"7689285298592"
+        }
+    ]
+}

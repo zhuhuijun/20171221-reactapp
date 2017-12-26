@@ -14,7 +14,7 @@ export default class Slider extends Component {
         let opts = {
             continuous: true, auto: 2000,
             callback: (index, elem) => {
-                console.log(index);
+                //console.log(index);
                 this.setState({index});
             }
         };
