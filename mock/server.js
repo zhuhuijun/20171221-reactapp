@@ -14,3 +14,15 @@ app.get('/api/list/:city/:page', (req, res) => {
     console.info(req.params.page);
     res.send(list);
 });
+//商户详情
+let info = require('./detail/info');
+app.get('/api/detail/info/:id', (req, res) => {
+    res.send(info);
+});
+//评价列表
+let comment = require('./detail/comment');
+app.get('/api/detail/comment/:id/:page', (req, res) => {
+    console.info(req.params.id);
+    res.send(comment);
+
+});
