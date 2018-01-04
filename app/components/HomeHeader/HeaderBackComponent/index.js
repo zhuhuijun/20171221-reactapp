@@ -15,6 +15,11 @@ export default class HeaderBackComponent extends Component {
     }
 
     back() {
-        this.props.history.go(-1);
+        if (this.props.back) {
+            this.props.history.push(this.props.back)
+        } else {
+            this.props.history.go(-1);
+
+        }
     }
 }

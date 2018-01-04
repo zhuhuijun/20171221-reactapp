@@ -1,0 +1,64 @@
+.orderlist-item {
+  display: flex;
+  padding: 5px;
+  color: #666666;
+  img, .list-conent, .order-button {
+    flex: 1;
+    display: flex;
+  }
+  .list-conent {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  img {
+    width: 120px;
+    height: 90px;
+  }
+  .order-button {
+    justify-content: center;
+    align-items: center;
+
+    button {
+      height: 35px;
+      width: 60px;
+      background: #e9203d;
+      color: #fff;
+      border: 0;
+      border-radius: 5px;
+      outline: none;
+    }
+    .unselect {
+      background: #cccccc;
+    }
+  }
+}
+
+.comment-area {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  textarea {
+    border: 1px solid #ccc;
+    height: 70px;
+    outline: none;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    button {
+      margin-top: 5px;
+      width: 70px;
+      height: 35px;
+      outline: none;
+      text-align: center;
+      background: #e9203d;
+      color: #fff;
+      border: 0;
+      border-radius: 5px;
+    }
+    .distance5 {
+      margin-left: 10px;
+    }
+
+  }
+}

@@ -1,5 +1,7 @@
 let express = require('express');
 let app = express();
+let bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({extended:true}));
 app.listen(3000);
 
 let ad = require('./home/ad');
@@ -24,5 +26,17 @@ let comment = require('./detail/comment');
 app.get('/api/detail/comment/:id/:page', (req, res) => {
     console.info(req.params.id);
     res.send(comment);
-
+});
+/*获得订单的列表*/
+let orderlist = require('./orderlist/orderList');
+app.get('/api/orderlist/:id', (req, res) => {
+    res.send(orderlist);
+});
+//提交评价内容
+app.post('/api/comment', (req, res) => {
+    //cnpm install body-parser -S
+    //1.let bodyParser = require('body-parser');
+    //app.use(bodyParser.urlencoded({extended:true}));
+    console.info(req.body);
+    res.send({msg: 'ok'});
 });

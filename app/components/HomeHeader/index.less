@@ -1,27 +1,40 @@
-.home-header{
+.home-header {
   height: 48px;
   display: flex;
   align-items: center;
   color: #ffffff;
-  .city{
+  /*当前元素的第一个元素*/
+  & :nth-child(1){
     flex: 1;
+    display: flex;
+  }
+  .city {
+    justify-content: center;
+    align-items: center;
     margin-left: 5px;
   }
-  .search{
+  .search {
     flex: 4;
     background: #ffffff;
     border-radius: 10px;
     height: 30px;
     display: flex;
     align-items: center;
-    i{color: #666666;margin: 0 5px;}
-    input{
+    i {
+      color: #666666;
+      margin: 0 5px;
+    }
+    input {
       width: 90%;
       border: none;
     }
   }
-  .profile{
+  a {
     flex: 0.5;
     margin-left: 5px;
+    color: #fff;
+  }
+  .profile {
+
   }
 }
