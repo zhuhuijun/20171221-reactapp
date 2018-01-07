@@ -1,6 +1,7 @@
 //实现本地存储
 export function getStorage(key) {
-    return localStorage.getItem(key);
+    let ret = localStorage.getItem(key);
+    return JSON.parse(ret);
 }
 
 /**

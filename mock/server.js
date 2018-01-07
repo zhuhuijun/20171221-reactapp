@@ -40,3 +40,11 @@ app.post('/api/comment', (req, res) => {
     console.info(req.body);
     res.send({msg: 'ok'});
 });
+//查询结果的数据
+let search = require('./search/search');
+app.get('/api/search/:city/:page/:keyword', (req, res) => {
+    //需要传递城市,页码
+    console.info(req.params.city);
+    console.info(req.params.page);
+    res.send(search);
+});

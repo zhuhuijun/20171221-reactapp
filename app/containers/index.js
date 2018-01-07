@@ -12,13 +12,19 @@ class App extends Component {
         this.state = {
             done: false
         }
-
     }
 
     componentDidMount() {
-        let {city} = getStorage(LOCALKEY().CITY_KEY);
-        if (city == null) {
+        let city = getStorage(LOCALKEY().CITY_KEY);
+        if (city == null || city.city == undefined) {
             city = '杭州';
+            this.props.userActions.update({
+                cityName: city
+            });
+        } else {
+            this.props.userActions.update({
+                cityName: city.city
+            });
         }
         setTimeout(() => {
             this.setState({
@@ -26,9 +32,7 @@ class App extends Component {
             })
         }, 100);
 
-        this.props.userActions.update({
-            cityName: city
-        });
+
         //先去本地查找是否有cityName
         console.info(this.props.userActions);
     }

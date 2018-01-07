@@ -5,10 +5,12 @@ import Ad from "./subpage/Ad";
 import {connect} from 'react-redux';
 import List from "./subpage/List";
 import './index.less';
+
 class Home extends Component {
     render() {
         return (
-            <div><HomeHeader cityName={this.props.userInfo.cityName}/>
+            <div><HomeHeader cityName={this.props.userInfo.cityName}
+                             history={this.props.history}/>
                 <Slider/>
                 <Ad/>
                 <div className="myh3">特惠礼物</div>

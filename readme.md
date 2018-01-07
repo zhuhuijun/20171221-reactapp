@@ -37,3 +37,12 @@ cnpm install swipe-js-iso react-swipe --S
 - actions 发布的动作
 - reducers 
 - action-types
+# 处理css压缩
+```
+cnpm install extract-text-webpack-plugin --save-dev
+```
+
+# 处理display
+```
+cnpm install postcss-loader --save-dev
+```

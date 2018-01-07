@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactSwipe from 'react-swipe';
 import './index.less';
+import {Link} from 'react-router-dom';
 
 export default class Slider extends Component {
     constructor() {
@@ -23,134 +24,194 @@ export default class Slider extends Component {
                 <ReactSwipe className="carousel" swipeOptions={opts}>
                     <div>
                         <ul>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                     <div>
                         <ul>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                     <div>
                         <ul>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <i className="iconfont icon-damailogo"></i>
-                                <span>美食</span>
-                            </li>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
+                            <Link to="/search/sample">
+                                <li>
+                                    <i className="iconfont icon-damailogo"></i>
+                                    <span>美食</span>
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                 </ReactSwipe>

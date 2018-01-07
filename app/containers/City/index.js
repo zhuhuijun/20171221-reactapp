@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import CurrentCity from "../../components/CurrentCity/index";
 import * as Actions from '../../actions/userInfo';
 import {bindActionCreators} from 'redux';
+import ChoiceCity from "../../components/ChoiceCity/index";
 
 class City extends Component {
     render() {
@@ -13,6 +14,7 @@ class City extends Component {
                 {/*当前城市*/}
                 <CurrentCity cityName={this.props.userInfo.cityName}/>
                 {/*选择城市*/}
+                <ChoiceCity changeCity={this.changeCity.bind(this)}/>
             </div>
         )
     }
@@ -25,6 +27,7 @@ class City extends Component {
         let old = this.props.userInfo;
         old.cityName = city;
         this.props.userActions.update(old);
+        this.props.history.push('/');
     }
 }
 
